@@ -1,15 +1,25 @@
 # DATABASE
 Table yg harus dibuat: Plural/jamak
+Silahkan jika mau ditambahkan foreign key syntax di create table dst
+Tapi kita tidak akan concern dibagian itu.
+but lebih kepada fungsionalities and UI.
 
 1. Products (data barang)
   <code>
   id autoincrement integer
+  
   code varchar
+  
   name varchar
+  
   price integer
+  
   stock integer
+  
   created_at datetime (untuk menyimpan tgl ketika record dibuat)
+  
   updated_at datetime (untuk diupdate dgn taggl record di update)
+  
   </code>
 
 
@@ -17,11 +27,17 @@ Table yg harus dibuat: Plural/jamak
 
   <code>
   id autoincrement integer
+  
   username varchar
+  
   password varchar
+  
   full_name  varchar
+  
   phone varchar
+  
   created_at datetime
+  
   updated_at datetime
   </code>
 
@@ -30,19 +46,28 @@ Table yg harus dibuat: Plural/jamak
 
   <code>
   id autoincrement integer
+  
   total  integer
+  
   created_at datetime
+  
   updated_at datetime
   </code>
 
 
 4. Transactions (detail transaksi):
 
+  <code>
   id autoincrement integer
+  
   order_id integer
+  
   product_id integer
+  
   price integer
+  
   quantity integer
+  
   sub_total integer
   </code>
 
