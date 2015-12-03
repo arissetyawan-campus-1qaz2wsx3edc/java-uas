@@ -1,45 +1,53 @@
 # DATABASE
 Table yg harus dibuat: Plural/jamak
------------------------------
+
 1. Products (data barang)
-id autoincrement integer
-code varchar
-name
-price integer
-stock
-created_at (untuk menyimpan tgl ketika record ini dibuat)
-updated_at (untuk diupdate dgn taggl record di update)
------------------------------
+
+  id autoincrement integer
+  code varchar
+  name varchar
+  price integer
+  stock integer
+  created_at datetime (untuk menyimpan tgl ketika record dibuat)
+  updated_at datetime (untuk diupdate dgn taggl record di update)
+
+
 2. Users (untuk login):
-id
-username (untuk login)
-password (untuk password) 
-full_name
-phone
-created_at
-updated_at
------------------------------
+
+  id autoincrement integer
+  username varchar
+  password varchar
+  full_name  varchar
+  phone varchar
+  created_at datetime
+  updated_at datetime
+
+
 3.Orders (master transaksi)
-id
-total
-created_at
-updated_at
------------------------------
+
+  id autoincrement integer
+  total  integer
+  created_at datetime
+  updated_at datetime
+
+
 4. Transactions (detail transaksi):
-order_id
-id
-product_id
-price
-quantity
-sub_total
------------------------------
->> posuas.sql
+
+  id autoincrement integer
+  order_id integer
+  product_id integer
+  price integer
+  quantity integer
+  sub_total integer
+
+
+>> execute: posuas.sql
 
 # UI MOCKUP/DESIGN:
->> sbg referensi untuk mockup: mockup.zip
+>> open: mockup.zip
 
 # FLOW
->> flow.zip
+>> open: flow.zip
 
 # TODO
 1. phpmyadmin -> mysql (database), apache (webserver), php (lang) atau sejenisnya agar mempermudah generate /create table dst
@@ -63,7 +71,7 @@ class2 berikut ini untuk referensi membantu anda untuk:
 1. mengetahui waktu sekarang yg akan dipake di created_at dan atau updated_at
 2. melakukan koneksi ke database
 3. mengexecute query SQL(create, update, delete, select)
->> classes.zip
+>> open: classes.zip
 
 
 Further reference ??? Search on youtube/google to explore more !
