@@ -1,7 +1,7 @@
 # DATABASE
 Table yg harus dibuat: Plural/jamak
 -----------------------------
-1) Products (data barang)
+1. Products (data barang)
 id autoincrement integer
 code varchar
 name
@@ -10,7 +10,7 @@ stock
 created_at (untuk menyimpan tgl ketika record ini dibuat)
 updated_at (untuk diupdate dgn taggl record di update)
 -----------------------------
-2) Users (untuk login):
+2. Users (untuk login):
 id
 username (untuk login)
 password (untuk password) 
@@ -19,13 +19,13 @@ phone
 created_at
 updated_at
 -----------------------------
-3) Orders (master transaksi)
+3.Orders (master transaksi)
 id
 total
 created_at
 updated_at
 -----------------------------
-4) Transactions (detail transaksi):
+4. Transactions (detail transaksi):
 order_id
 id
 product_id
@@ -43,7 +43,7 @@ sub_total
 
 # TODO
 1. phpmyadmin -> mysql (database), apache (webserver), php (lang) atau sejenisnya agar mempermudah generate /create table dst
-2. java
+2. java jdk
 3. netbeans
 cara install google: how to install phpmyadmin step by step, etc.
 
@@ -57,14 +57,16 @@ cara install google: how to install phpmyadmin step by step, etc.
 4. yg sudah selesai minta dinilai kapanpun dan selanjutnya tidak usah masuk kelas is OK.
 
 
-# classes for you :)
-class2 berikut ini untuk membantu anda untuk:
+# CLASSES for you :)
+class2 berikut ini untuk referensi membantu anda untuk:
 
-1) mengetahui waktu sekarang yg akan dipake di created_at dan atau updated_at
-2) melakukan koneksi ke database
-3) mengexecute query SQL
+1. mengetahui waktu sekarang yg akan dipake di created_at dan atau updated_at
+2. melakukan koneksi ke database
+3. mengexecute query SQL(create, update, delete, select)
 >> classes.zip
 
+
+Further reference ??? Search on youtube/google to explore more !
 
 Selamat belajar. ^_^
 
