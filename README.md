@@ -2,7 +2,7 @@
 Table yg harus dibuat: Plural/jamak
 
 1. Products (data barang)
-
+  <code>
   id autoincrement integer
   code varchar
   name varchar
@@ -10,10 +10,12 @@ Table yg harus dibuat: Plural/jamak
   stock integer
   created_at datetime (untuk menyimpan tgl ketika record dibuat)
   updated_at datetime (untuk diupdate dgn taggl record di update)
+  </code>
 
 
 2. Users (untuk login):
 
+  <code>
   id autoincrement integer
   username varchar
   password varchar
@@ -21,14 +23,17 @@ Table yg harus dibuat: Plural/jamak
   phone varchar
   created_at datetime
   updated_at datetime
+  </code>
 
 
-3.Orders (master transaksi)
+3. Orders (master transaksi)
 
+  <code>
   id autoincrement integer
   total  integer
   created_at datetime
   updated_at datetime
+  </code>
 
 
 4. Transactions (detail transaksi):
@@ -39,6 +44,7 @@ Table yg harus dibuat: Plural/jamak
   price integer
   quantity integer
   sub_total integer
+  </code>
 
 
 >> execute: posuas.sql
@@ -71,6 +77,7 @@ class2 berikut ini untuk referensi membantu anda untuk:
 1. mengetahui waktu sekarang yg akan dipake di created_at dan atau updated_at
 2. melakukan koneksi ke database
 3. mengexecute query SQL(create, update, delete, select)
+
 >> open: classes.zip
 
 
