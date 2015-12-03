@@ -5,7 +5,7 @@ Tapi kita tidak akan concern dibagian itu.
 but lebih kepada fungsionalities and UI.
 
 1. Products (data barang)
-  <code>
+
   id autoincrement integer
   
   code varchar
@@ -20,12 +20,11 @@ but lebih kepada fungsionalities and UI.
   
   updated_at datetime (untuk diupdate dgn taggl record di update)
   
-  </code>
 
 
 2. Users (untuk login):
 
-  <code>
+ 
   id autoincrement integer
   
   username varchar
@@ -39,12 +38,12 @@ but lebih kepada fungsionalities and UI.
   created_at datetime
   
   updated_at datetime
-  </code>
+
 
 
 3. Orders (master transaksi)
 
-  <code>
+ 
   id autoincrement integer
   
   total  integer
@@ -52,12 +51,12 @@ but lebih kepada fungsionalities and UI.
   created_at datetime
   
   updated_at datetime
-  </code>
+
 
 
 4. Transactions (detail transaksi):
 
-  <code>
+ 
   id autoincrement integer
   
   order_id integer
@@ -69,7 +68,7 @@ but lebih kepada fungsionalities and UI.
   quantity integer
   
   sub_total integer
-  </code>
+
 
 
 >> execute: posuas.sql
