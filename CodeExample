@@ -1,0 +1,13 @@
+// cara membaca record dari clik mouse di jtable
+// dalam hal ini memindahkan ke object text field
+private void jTableProductsMouseClicked(java.awt.event.MouseEvent evt)      
+  {                                            
+      // TODO add your handling code here:
+      int rowNumber = jTableProducts.getSelectedRow();
+      this.txtID.setText(jTableProducts.getValueAt(rowNumber, 0).toString());
+      this.txtKode.setText(jTableProducts.getValueAt(rowNumber, 1).toString());
+      this.txtNama.setText(jTableProducts.getValueAt(rowNumber, 2).toString());
+      this.txtHarga.setText(jTableProducts.getValueAt(rowNumber, 3).toString());
+      this.txtStok.setText(jTableProducts.getValueAt(rowNumber, 4).toString());
+  }                                           
+

@@ -70,17 +70,10 @@ but lebih kepada fungsionalities and UI.
   sub_total integer
 
 
-
 >> execute: posuas.sql
 
-# UI MOCKUP/DESIGN:
->> open: mockup.zip
-
-# FLOW
->> open: flow.zip
-
 # TODO
-1. phpmyadmin -> mysql (database), apache (webserver), php (lang) atau sejenisnya agar mempermudah generate /create table dst
+1. phpmyadmin -> mysql (database), apache (webserver), php (lang) atau sejenisnya agar mempermudah generate /create table dst atau bisa juga via netbeans
 2. java jdk
 3. netbeans
 cara install google: how to install phpmyadmin step by step, etc.
@@ -102,7 +95,8 @@ class2 berikut ini untuk referensi membantu anda untuk:
 2. melakukan koneksi ke database
 3. mengexecute query SQL(create, update, delete, select)
 
->> open: classes.zip
+>> open: risTime.java, 
+Utility class untuk mendapatkan waktu sekarang:
 
 
 Further reference ??? Search on youtube/google to explore more !
