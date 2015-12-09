@@ -101,8 +101,12 @@ Utility class untuk mendapatkan waktu sekarang:
 
 Further reference ??? Search on youtube/google to explore more !
 
+
+//////////////////////////////////////////////
+See: source-references.zip
+password: JombloDevelopmentKit.java
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 Selamat belajar. ^_^
 
-arissan
-
-
+arissan <arissetyawan.email@gmail.com>
